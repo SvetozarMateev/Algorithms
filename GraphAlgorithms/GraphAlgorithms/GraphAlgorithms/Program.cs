@@ -10,7 +10,7 @@ namespace GraphAlgorithms
             var startNode = int.Parse(Console.ReadLine());
 
             var graph = new Dictionary<int, HashSet<int>>
-            {
+            { 
                 { 1, new HashSet<int>() { 2, 3 } },
                 { 2, new HashSet<int>() { 1, 4 } },
                 { 3, new HashSet<int>() { 1, 5, 6 } },
